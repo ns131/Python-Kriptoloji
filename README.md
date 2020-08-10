@@ -2,6 +2,7 @@
 Bu şifreleme algoritması bir anahtar kelime kullanılarak geri dönüşümlü çalışacak şekilde tasarlanmıştır. Program sadece ingilizce alfabe için çalışmaktadır fakat büyük harf girdileri ve türkçe karakter girdileri yazılan bir fonksiyon ile düzeltilerek büyük harfler küçük harfle ve türkçe karakterler de ingilizce alfabedeki karşılığı ile değiştirilmektedir. Çıktı ise tamamen küçük harf ve türkçe karakter olmadan üretilmektedir.
 Algoritmada çözülmesi daha zor olması için asal sayılardan faydalanılmıştır. Bir örüntüye sahip olmadıkları için çözümü oldukça zorlaştırmaktadır.
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Çalışma Mantığı
+Şifreleme ve Deşifre Etme olarak ele alınırsa çalışma mantığı daha rahat kavranacaktır. 
 ## Şifreleme
 Girilen açık metindeki karakterler sırası ile anahtar kelimedeki karakterler kullanılarak sayısal işlemlerden geçirilerek, şifrelenmiş karakterler elde edilmektedir. Aşağıdaki adımlarda örnek olarak kullanılması için<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Açık metin:   **deneme**<br/>
